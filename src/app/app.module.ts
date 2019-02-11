@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { FooterModule } from './footer/footer.module';
+import { HomeModule } from './home/home.module';
 import { CatalogModule } from './catalog/catalog.module';
 import { AboutUsModule } from './about-us/about-us.module';
 import { ContactsModule } from './contacts/contacts.module';
@@ -20,6 +21,7 @@ import { ContactsModule } from './contacts/contacts.module';
     AppRoutingModule,
     HeaderModule,
     FooterModule,
+    HomeModule,
     CatalogModule,
     AboutUsModule,
     ContactsModule

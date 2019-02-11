@@ -1,16 +1,20 @@
 import {NgModule} from '@angular/core';
 
 import {CatalogComponent} from './catalog.component';
-import {CatalogListModule} from './catalog-list/catalog-list.module'
+import {CatalogListModule} from './catalog-list/catalog-list.module';
+import {CatalogNavModule} from './catalog-nav/catalog-nav.module'
 
 // material
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
     CatalogComponent
   ],
   imports: [
-    CatalogListModule
+    MatSidenavModule,
+    CatalogListModule,
+    CatalogNavModule,
   ],
   exports: [
     CatalogComponent,

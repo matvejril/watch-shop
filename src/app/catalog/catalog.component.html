@@ -1,4 +1,8 @@
-<p>
-  catalog works!
-</p>
-<el-catalog-list></el-catalog-list>
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>
+    <el-catalog-nav></el-catalog-nav>
+  </mat-drawer>
+  <mat-drawer-content>
+    <el-catalog-list></el-catalog-list>
+  </mat-drawer-content>
+</mat-drawer-container>
