@@ -1,6 +1,5 @@
-<ul>
-  <li routerLink="">Главная</li>
-  <li routerLink="/catalog">Каталог</li>
-  <li routerLink="/about-us">О нас</li>
-  <li routerLink="/contacts">Контакты</li>
-</ul>
+<button mat-button routerLink="/test-page" routerLinkActive="active"><span>Тестовая</span></button>
+<button mat-button routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><span>Главная</span></button>
+<button mat-button routerLink="/catalog" routerLinkActive="active"><span>Каталог</span></button>
+<button mat-button routerLink="/about-us" routerLinkActive="active"><span>О нас</span></button>
+<button mat-button routerLink="/contacts" routerLinkActive="active"><span>Контакты</span></button>

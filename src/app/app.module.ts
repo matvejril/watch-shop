@@ -1,15 +1,16 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { AppRoutingModule } from './app-routing.module';
-import { NgModule } from '@angular/core';
+import {AppRoutingModule} from './app-routing.module';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { HeaderModule } from './header/header.module';
-import { FooterModule } from './footer/footer.module';
-import { HomeModule } from './home/home.module';
-import { CatalogModule } from './catalog/catalog.module';
-import { AboutUsModule } from './about-us/about-us.module';
-import { ContactsModule } from './contacts/contacts.module';
+import {AppComponent} from './app.component';
+import {HeaderModule} from './header/header.module';
+import {FooterModule} from './footer/footer.module';
+import {HomeModule} from './home/home.module';
+import {CatalogModule} from './catalog/catalog.module';
+import {AboutUsModule} from './about-us/about-us.module';
+import {ContactsModule} from './contacts/contacts.module';
+import {TestPageModule} from './test-page/test-page.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactsModule } from './contacts/contacts.module';
     HomeModule,
     CatalogModule,
     AboutUsModule,
-    ContactsModule
+    ContactsModule,
+    TestPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

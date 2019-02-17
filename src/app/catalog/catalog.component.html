@@ -3,6 +3,7 @@
     <el-catalog-nav></el-catalog-nav>
   </mat-drawer>
   <mat-drawer-content>
-    <el-catalog-list></el-catalog-list>
+    <el-catalog-list [catalogList]="catalogList"></el-catalog-list>
   </mat-drawer-content>
 </mat-drawer-container>
+<router-outlet></router-outlet>

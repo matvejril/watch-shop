@@ -3,4 +3,11 @@
 }
 .logo {
   font-size: 24px;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
 }

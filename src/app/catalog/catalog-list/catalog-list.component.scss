@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+}
+
+mat-card {
+  width: calc(25% - 15px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  .mat-card-title {
+    height: 42px;
+    overflow: hidden;
+    font-size: 18px;
+  }
+  .mat-card-avatar {
+    display: none!important;
+  }
+  .mat-card-actions {
+    text-align: right;
+  }
+}

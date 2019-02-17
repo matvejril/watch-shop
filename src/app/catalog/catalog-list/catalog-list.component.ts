@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {ICtalogCard} from "../../watch-shop";
 
 @Component({
   selector: 'el-catalog-list',
@@ -6,10 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['catalog-list.component.scss']
 })
 export class CatalogListComponent implements OnInit {
-
+  @Input() catalogList: ICtalogCard
   constructor() { }
-
   ngOnInit() {
   }
-
 }
