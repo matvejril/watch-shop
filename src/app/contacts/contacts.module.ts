@@ -5,7 +5,7 @@ import { ContactsComponent } from './contacts.component';
 @NgModule({
   declarations: [ContactsComponent],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class ContactsModule {

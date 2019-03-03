@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contacts-list {
+  width: calc(35% - 20px);
+  p {
+    margin-top: 5px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  span {
+    width: 60px;
+    margin-right: 5px;
+    display: inline-block;
+    font-weight: bold;
+  }
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-map {
+  width: calc(65%);
+  height: 400px;
+}
